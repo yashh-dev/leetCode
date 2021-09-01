@@ -24,17 +24,7 @@
 // }
 // If all assertions pass, then your solution will be accepted.
 
-
-
-
-
-
-
-
-
-
-
-
+//NOT IN PLACE ALGORITHM IN 0(N) TIME COMPLEXITY
 
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -56,5 +46,24 @@ class Solution {
        
         }
         return j;
+    }
+}
+
+//IN PLACE ALGORITHM IN 0(N) TIME COMPLEXITY
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int j=0,k=1;
+        int l=nums.length;
+        if(l>0){
+            int n=nums[0];
+            for(j=1;j<l;j++){
+            if(nums[j]!=n){
+                n=nums[j];
+                nums[k++]=n;
+            }
+            }
+       }
+        return k;
     }
 }
