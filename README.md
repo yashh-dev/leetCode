@@ -7,12 +7,5 @@ flowchart TD;
     A[Start]-->B{Understanding the Problem};
     B--Yes-->C[Solve the Math part];
     B--No-->A;
-    C-->D[Start Coding];
-
-<style>
-.mermaid
-{ width:100%; }
-</style>
-
-    
+    C-->D[Start Coding];    
 ```
