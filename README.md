@@ -2,7 +2,7 @@
 I upload the leet code problems solution that i solve daily(maybe)
 
 ```mermaid
-graph TD;
+Process TD;
     A-->B;
     A-->C;
     B-->D;
