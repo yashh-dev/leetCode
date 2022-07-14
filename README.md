@@ -2,6 +2,9 @@
 I upload the leet code problems solution that i solve daily(maybe)
 
 ```mermaid
-Process TD;
-  A[Start]-->B[Understand the Problem];
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
